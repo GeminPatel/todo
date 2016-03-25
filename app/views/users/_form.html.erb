@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+  <%= form_for(@user) do |f| %>
+    <%= render 'shared/error_messages' %>
+    <%= f.label :login %><br>
+    <%= f.text_field :login, class: 'form-control'%>
+    <%= f.label :email %><br>
+    <%= f.email_field :email, class: 'form-control' %>
+    <%= f.label :firstname %><br>
+    <%= f.text_field :firstname, class: 'form-control' %>
+    <%= f.label :lastname %><br>
+    <%= f.text_field :lastname, class: 'form-control' %>
+    <%= f.label :password %><br>
+    <%= f.password_field :password, class: 'form-control' %>
+    <%= f.label :password_confirmation %><br>
+    <%= f.password_field :password_confirmation, class: 'form-control' %>
+    <%= f.submit 'Create', class: 'btn btn-primary' %>
+    <% end %>
+  </div>
+</div>

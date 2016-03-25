@@ -1,0 +1,19 @@
+current directory: /home/geminpatel/workspace/todo/vendor/cache/ruby/2.3.0/gems/byebug-8.2.2/ext/byebug
+/home/geminpatel/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20160325-28139-h38tg5.rb extconf.rb
+creating Makefile
+
+current directory: /home/geminpatel/workspace/todo/vendor/cache/ruby/2.3.0/gems/byebug-8.2.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/geminpatel/workspace/todo/vendor/cache/ruby/2.3.0/gems/byebug-8.2.2/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling locker.c
+compiling context.c
+compiling threads.c
+compiling byebug.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/geminpatel/workspace/todo/vendor/cache/ruby/2.3.0/gems/byebug-8.2.2/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -m 0755 byebug.so ./.gem.20160325-28139-1vc3mgr/byebug
